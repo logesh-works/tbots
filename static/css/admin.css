@@ -244,7 +244,7 @@ h1 {
     float: right; /* Float the container to the right */
 }
  /* Center the container */
-        .container {
+        .fb-container {
             display: flex;
             flex-direction: column;
             align-items: flex-start;

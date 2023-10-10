@@ -49,7 +49,7 @@ class EditBotForm(FlaskForm):
     description = StringField('Description', validators=[DataRequired()])
     details = TextAreaField('Details', validators=[DataRequired()])
     links = StringField('Links', validators=[DataRequired()])
-    youtube_demo_link = StringField('Youtube Demo Link', validators=[DataRequired()])
+    youtube_demo_link = StringField('Youtube Demo Link')
     active = BooleanField('Active')
     photo = FileField('Photo')
     screenshot1_url = FileField('screenshot1_url')

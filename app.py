@@ -27,7 +27,7 @@ with app.app_context():
 def save_uploaded_photo(file):
   filename = os.path.join('uploads', file.filename)
   file.save(os.path.join(app.root_path, 'static', filename))
-  return url_for('static', filename=filename)
+  return (f'/static/{filename}')
 
 def delete_uploaded_photo(file_url):
   if file_url:

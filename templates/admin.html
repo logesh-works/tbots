@@ -93,7 +93,7 @@
     <h1>Feedback responses</h1> <!-- Add a title -->
         <p style="text-align: center;">Here, you can view and delete feedback entries.</p> <!-- Add a message for the admin -->
 
-    <div class="container">
+    <div class="fb-container">
         {% if feedbacks %}
             {% set current_bot = None %}
             {% for feedback_entry in feedbacks|sort(attribute='bot_name') %}

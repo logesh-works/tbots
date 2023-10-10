@@ -2,9 +2,89 @@
 
 {% block extra_head %}
     <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+    <style>/* Style sections and headings */
+        section {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+        
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        h3 {
+            font-size: 20px;
+            margin-top: 15px;
+        }
+        button{
+            padding: 5px;
+            border-radius: 5px;
+            background-color: aliceblue;
+            color:black;
+        }
+        button:hover{
+            transform:scaleX(1.1)
+        }
+        </style>
     
 {% endblock %}
 
 {% block content %}
+<main>
+    <section>
+        <h2>Welcome to Our Bot Services</h2>
+        <p>Welcome to our Telegram bot creation and maintenance service! We are your trusted partner in building, enhancing, and maintaining Telegram bots that serve a wide range of purposes.</p>
 
+        <p>Our mission is to empower businesses and individuals by harnessing the power of Telegram bots. Whether you're looking to create a new bot from scratch or ensure the smooth operation of your existing bots, we've got you covered.</p>
+
+        <p>Here's what sets us apart:</p>
+
+        <h3>Bot Creation</h3>
+        <p>We specialize in crafting custom Telegram bots tailored to your specific needs. Our experienced team of developers can bring your bot ideas to life, helping you automate tasks, engage with your audience, and streamline communication.</p>
+
+        <h3>Bot Maintenance</h3>
+        <p>Keeping your bots running smoothly is our top priority. Our dedicated bot maintainers monitor bot performance, apply updates, and resolve any issues promptly. You can trust us to ensure your bots are always up-to-date and secure.</p>
+
+        <h3>Client-Centric Approach</h3>
+        <p>We believe in building strong, long-lasting relationships with our clients. Your success is our success, and we work closely with you to understand your goals and deliver solutions that exceed your expectations.</p>
+
+        <p>Whether you're a business looking to enhance customer support through bots or an individual with a creative bot idea, we're here to guide you every step of the way.</p>
+    </section>
+    <section>
+    <h2>Meet the Team</h2>
+    <p>Our team is driven by a passion for creating innovative Telegram bot solutions. Meet the founder and visionary behind our services:</p>
+    
+    <h3>Gopi - Founder of the Teamvampire and TBots</h3>
+    <p>Gopi is a highly skilled developer with a deep understanding of Telegram bot technology. With a background in computer science and a knack for creative problem-solving, he founded our company with the goal of revolutionizing bot development and maintenance.</p>
+    
+    <p>Under Gopi's leadership, we've successfully delivered tailor-made bot solutions to numerous clients, helping them achieve their automation and communication goals on Telegram.</p>
+    <a href="https://t.me/mrtimetraveller"><button>Here you can chat with Gopi.</button></a>
+    <h3>Moni - Developer of the Teamvampire and TBots</h3>
+    <p>Moni is a highly skilled developer with a deep understanding of Telegram bot technology. With a background in computer science and a knack for creative problem-solving.</p>
+    <p>He can bring your bot ideas to life, from conceptualization to deployment. He have a track record of creating custom bots that automate tasks, facilitate communication, and enhance user experiences</p>
+    <a href="https://t.me/kingofatttitude"><button>Here you can chat with Moni.</button></a>
+    <h3>꧁༒•мя. кιиg•༒꧂ - Developer of the Teamvampire and TBots</h3>
+    <p>He highly experienced bot developers who have a deep understanding of Telegram's API and best practices. He bring a wealth of technical expertise to every project.</p>
+    <a href="https://t.me/mr_king008"><button>Here you can chat with mr.King.</button></a>
+    <!-- Add more sections if needed, such as client testimonials, services offered, or contact information. -->
+</section>
+<section>
+    <h2>Team Vampire</h2>
+    <!-- Inside the <section> element in your HTML -->
+<p>Stay up-to-date with the latest bot development news, tips, and updates by joining our Telegram community. We have both a channel and a group where you can engage with fellow bot enthusiasts and receive timely information:</p>
+
+<h3>Telegram Channel: Bot Development Updates</h3>
+<p>Join our Telegram channel to receive regular updates on bot development, new features, and best practices. Be the first to know about important announcements and industry trends. <a href="https://t.me/TMK_MUSICCHANNEL">Join Now</a></p>
+
+<h3>Telegram Group: Bot Developers Community</h3>
+<p>Connect with other bot developers, share your ideas, and seek help in our Telegram group. It's a supportive community where you can collaborate, troubleshoot issues, and learn from each other's experiences. <a href="https://t.me/TMK_MUSICSUPPORT">Join Now</a></p>
+
+<p>We look forward to having you as part of our growing bot development community!</p>
+
+</section>
+</main>
 {% endblock %}
